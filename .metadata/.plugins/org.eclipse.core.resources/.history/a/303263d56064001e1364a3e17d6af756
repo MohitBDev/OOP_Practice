@@ -1,0 +1,25 @@
+package Recursion;
+
+public class PrintNum {
+	public static int printnum(int n){
+		if(n==1) 
+			return 1;
+		
+		printnum(n-1);
+		return  n;
+	
+
+		
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		printnum(25);
+		//System.out.println(	printnum(10));
+	
+
+	}
+
+}

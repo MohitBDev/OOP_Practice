@@ -1,0 +1,23 @@
+package Recursion;
+
+public class PrintNum {
+	public static int printnum(int n){
+		if(n==1) {
+			return 1;
+		
+		}
+		;
+	return printnum(n-1);
+		
+		
+		
+		
+	}
+
+	public static void main(String[] args) {
+		System.out.println(	printnum(10));
+	
+
+	}
+
+}
